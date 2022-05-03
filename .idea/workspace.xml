@@ -5,26 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="937e249d-42fc-42d9-aeeb-100cc326535e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BusinessLogic/BussinessFun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Stepdef/Home/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Stepdef/Login/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Util/GlobalFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Util/ReusableFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Browser.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/UserCredentials.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/extent-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/inputdata.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BusinessLogic/BussinessFun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BusinessLogic/BussinessFun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Stepdef/Login/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Stepdef/Login/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Util/GlobalFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Util/GlobalFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/inputdata.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/inputdata.xls" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +30,38 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="POC" />
+                    <option name="lastUsedInstant" value="1651573581" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1651573580" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -65,18 +80,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/Stepdef/Login" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\HCL POC\AutomationFrameworkS\src\test\java\Stepdef\Login" />
       <recent name="E:\HCL POC\AutomationFrameworkS\src\test\resources" />
+      <recent name="E:\HCL POC\AutomationFrameworkS" />
+      <recent name="E:\HCL POC\AutomationFrameworkS\src\test\java\Stepdef\Login" />
       <recent name="C:\Users\DELL\Desktop\AutomationFF\AutomationFrameworkS\src\test\resources\Features" />
       <recent name="C:\Users\DELL\Desktop\AutomationFF\AutomationFrameworkS\src\test\resources" />
-      <recent name="C:\Users\DELL\Desktop\AutomationFF\AutomationFrameworkS\src\test\java\Functional" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\HCL POC\AutomationFrameworkS\src\test\resources" />
       <recent name="E:\HCL POC\AutomationFrameworkS" />
       <recent name="C:\Users\DELL\Desktop\AutomationFF\AutomationFrameworkS\src\test\resources" />
       <recent name="C:\Users\DELL\Desktop\AutomationFF\AutomationFrameworkS\src\test\resources\Features\Air\1.loginCRM" />
@@ -89,7 +105,7 @@
       <recent name="Runner" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Unnamed">
+  <component name="RunManager" selected="TestNG.TestNg">
     <configuration name="Unnamed" type="AndroidRunConfigurationType" factoryName="Android App" nameIsGenerated="true">
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -115,6 +131,19 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="DBTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.DBTest" />
+      <module name="AutomationFrameworkS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExcelReaderFillo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Util.ExcelReaderFillo" />
       <module name="AutomationFrameworkS" />
@@ -134,25 +163,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: loginCRM (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/loginCRM.feature" />
-      <option name="GLUE" value="Stepdef.Login" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="AutomationFrameworkS" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: loginCRM" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,7 +220,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutomationFrameworkS [test]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+    <configuration name="AutomationFrameworkS [purge]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -221,7 +231,7 @@
             </option>
             <option name="goals">
               <list>
-                <option value="test" />
+                <option value="purge" />
               </list>
             </option>
             <option name="pomFileName" />
@@ -260,20 +270,20 @@
       <item itemvalue="Android App.Unnamed" />
       <item itemvalue="Application.ExcelReaderFillo" />
       <item itemvalue="Application.Test" />
-      <item itemvalue="Cucumber Java.Feature: loginCRM (1)" />
+      <item itemvalue="Application.DBTest" />
       <item itemvalue="Cucumber Java.Scenario: TC01_To login CRM page" />
       <item itemvalue="Cucumber Java.Scenario: TC01_To login CRM page (1)" />
       <item itemvalue="JUnit.Unnamed" />
-      <item itemvalue="Maven.AutomationFrameworkS [test]" />
+      <item itemvalue="Maven.AutomationFrameworkS [purge]" />
       <item itemvalue="TestNG.TestNg" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: TC01_To login CRM page (1)" />
+        <item itemvalue="Cucumber Java.Scenario: TC01_To login CRM page" />
+        <item itemvalue="Application.DBTest" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.ExcelReaderFillo" />
-        <item itemvalue="Cucumber Java.Scenario: TC01_To login CRM page" />
-        <item itemvalue="Cucumber Java.Scenario: TC01_To login CRM page (1)" />
-        <item itemvalue="Cucumber Java.Feature: loginCRM (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +315,7 @@
       <breakpoints>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Util/GlobalFunction.java</url>
-          <line>41</line>
+          <line>55</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -315,13 +325,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Util/GlobalFunction.java</url>
-          <line>79</line>
+          <line>108</line>
           <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/BusinessLogic/BussinessFun.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/BusinessLogic/LHFunction.java</url>
@@ -334,44 +339,19 @@
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Util/ExcelReaderFillo.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="30" />
+          <url>file://$PROJECT_DIR$/src/test/java/Practice/DBTest.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Practice/DBTest.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/BusinessLogic/BussinessFun.java</url>
-          <line>93</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Practice/Test.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/BusinessLogic/BussinessFun.java</url>
-          <line>146</line>
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/BusinessLogic/BussinessFun.java</url>
-          <line>158</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Stepdef/Login/Login.java</url>
-          <line>71</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Util/GlobalFunction.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/BusinessLogic/BussinessFun.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="42" />
+          <line>59</line>
+          <option name="timeStamp" value="70" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NoSuchFieldError" package="java.lang" />
@@ -385,10 +365,13 @@
         <watch expression="dict_login.get(&quot;password&quot;)" />
         <watch expression="dict_login.get(password)" />
         <watch expression="fieldName" />
+        <watch expression="BussinessFun.dict_login.get(&quot;userName&quot;)" />
+        <watch expression="userName" />
       </configuration>
-      <inline-watch fileUrl="file://$PROJECT_DIR$/src/test/java/BusinessLogic/BussinessFun.java" line="101">
-        <watch expression="dict_login.get(password)" />
-      </inline-watch>
+      <configuration name="TestNG">
+        <watch expression="str" />
+        <watch expression="LoadProperties.getInstance().getstrQuery()" />
+      </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">

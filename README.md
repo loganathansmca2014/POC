@@ -1,9 +1,9 @@
-# Content Optimizer Web/UI Tests #
+# Amazon.in Web/UI Tests #
 
-This is a Web/UI test suite for the Content Optimizer product.
+This is a Web/UI test suite for the POC.
 
 ###Project setup
-* Clone the repository using following command: `git clone` [Git](https://gitbucket.tvlport.com/git/loganat.sengottaiyan/ACM_UI_Automation.git)
+* Clone the repository using following command: `git clone` [Git](https://github.com/loganathan2022/Automation.git)
 * Follow google coding standard
 
 ### Project structure
@@ -13,22 +13,17 @@ project-root
 |-- src/
 |   |-- test/
 |       |-- java/
-|               |-- AirPageLocators -page objects and interactions Airl Rules 
-|               |-- BrowserControl - Browser Control framework and environment
-|               |-- com.travelport.contentOptimizer.Automation.FunctionlLibrary
-|                      |--Air-Air Rule bussiness logic
-|                      |--Hotel- hotel Rule bussiness logic
-|                      |--Utillity- Scenario creation,Hooks,TM4J file upload,Screenshot,Report Generation
-|               |-- HotelPageLocators-page objects and interactions Hotel Rules
-|               |-- runner - declared pre-test and post-test actions, hooks
-|               |-- steps - step definitions
-|               |-- web - page objects and interactions
+|               |-- BrowserAccess -Browser Operation based on Boolean 
+|               |-- BusinessLogic - Actual business logic for the Test class
+|               |-- PageLocators  - Object repository to hold the locators "ID","Xpath"
+|               |-- Util          - All reuseable class or handling excel ,Scenario, Screenshot,Webdriver initiate
+|               |-- Runner        - declared pre-test and post-test actions, hooks
+|               |-- Stefdef       - step definitions
 |       |-- resources/
-|           |-- Feature - test scenarios repository
-|           |-- Attachment - files translations
-|           |-- features/ - test scenarios repository
-|           |-- Reporting/ -TM4J information
-|           |-- Browser/-environment properties 
+|           |-- Feature       - test scenarios repository
+|           |-- inputdata.xls - Test data
+|           |-- UserCredentials.properties -User Credentials with base64 encoded
+|           |-- Browser       -environment properties 
 
 ```
 
@@ -80,9 +75,8 @@ Environment        |  `dev`, `qa`,`pp`
 
 Environment             | Accepted values
 ---------          | ---------    
-DEV      |  `https://acm-qa.tvlport.com`
-QA       |  `https://acm-dev.tvlport.com`
-PP       |  `https://contentoptimizer-pp.travelport.com`
+URL                |  `URl=https://amazon.in/
+`
 
 ### Background
 
@@ -91,12 +85,15 @@ Cucumber is a test automation tool following the principles of Behavioural Drive
 This project allows you to publish the results of a cucumber run as pretty html reports. In order for this to work you must generate a cucumber json report. The project converts the json report into an overview html linking to separate feature files with stats and results.
 ###Feature Report:
 
-![Tag report](./TestReport.png)
-
-![img_3.png](img_3.png)
-![img_4.png](img_4.png)
+####Feature Overview:
 ![img.png](img.png)
+####Feature Overview:
 
 ![img_1.png](img_1.png)
-
+#### Scenario based overview
 ![img_2.png](img_2.png)
+![img_3.png](img_3.png)
+
+#### Log and Screenshots
+![img_4.png](img_4.png)
+

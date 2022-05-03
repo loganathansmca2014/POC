@@ -7,6 +7,10 @@ import cucumber.api.Scenario;
 
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 
@@ -21,20 +25,30 @@ public class GlobalFunction  {
     public static GlobalFunction INSTANCE = new GlobalFunction();
     public static Scenario scenario;
     static String testCaseID = "";
+    private static final Logger logger = LogManager.getLogger(GlobalFunction.class.getName());
+    public int rowno;
 
     @Before
     public void startTest(Scenario scenario) throws IOException {
         GlobalFunction.scenario=scenario;
-        System.out.println("***************************************************************");
+        logger.info("Scenario called ");
+
+        logger.info("###############################################################");
         System.out.println(scenario.getId());
         System.out.println(scenario.getName());
         System.out.println(scenario.getStatus());
-        System.out.println("***************************************************************");
-        System.out.println("###############################################################");
+        logger.info("Test case Name:"+scenario.getName());
+        logger.debug("This will be printed during Debug");
+        logger.info("This will be printed during Info");
+        logger.warn("This will be printed during Warning");
+        logger.error("This will be printed during Error");
+        logger.info("###############################################################");
         System.out.println("\n");
         for (String tag : scenario.getSourceTagNames()) {
             if (tag.contains("TC")) {
                 testCaseID = tag.replace("@", "");
+                logger.info("Test case Tag:"+testCaseID.toString());
+
             }
         }
     }
@@ -59,8 +73,8 @@ public class GlobalFunction  {
         driver.quit();
 
     }
-    public static void Screenshot() {
-        if (!scenario.isFailed()) {
+    public static void fullpageScreenshot() {
+        if (scenario!=null&& !scenario.isFailed()) {
             try {
                 ByteArrayOutputStream baos = new ByteArrayOutputStream();
                 BufferedImage image = Shutterbug.shootPage(driver, ScrollStrategy.BOTH_DIRECTIONS).getImage();
@@ -77,8 +91,31 @@ public class GlobalFunction  {
 
     }
 
+    public static void selectionScreenshot() {
+        if (scenario!=null &&!scenario.isFailed()) {
+            try {
+                final byte[] screenshot=((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+                scenario.embed(screenshot,"image/png");
+
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+        }
+
+    }
+
     //Create instance for Resuable function
     public static GlobalFunction getInstance() {
         return INSTANCE;
+    }
+
+    public int getRowno() {
+        return rowno;
+    }
+
+    public void setRow(int rowno) {
+        this.rowno= rowno ;
     }
 }
