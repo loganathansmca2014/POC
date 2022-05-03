@@ -21,11 +21,10 @@ import java.io.IOException;
 
 public class GlobalFunction  {
     public static WebDriver driver;
-
     public static GlobalFunction INSTANCE = new GlobalFunction();
     public static Scenario scenario;
     static String testCaseID = "";
-    private static final Logger logger = LogManager.getLogger(GlobalFunction.class.getName());
+    private static  Logger logger = LogManager.getLogger(GlobalFunction.class.getName());
     public int rowno;
 
     @Before
@@ -38,16 +37,13 @@ public class GlobalFunction  {
         System.out.println(scenario.getName());
         System.out.println(scenario.getStatus());
         logger.info("Test case Name:"+scenario.getName());
-        logger.debug("This will be printed during Debug");
-        logger.info("This will be printed during Info");
-        logger.warn("This will be printed during Warning");
-        logger.error("This will be printed during Error");
+
         logger.info("###############################################################");
         System.out.println("\n");
         for (String tag : scenario.getSourceTagNames()) {
             if (tag.contains("TC")) {
                 testCaseID = tag.replace("@", "");
-                logger.info("Test case Tag:"+testCaseID.toString());
+                logger.debug("Test case Tag:"+testCaseID.toString());
 
             }
         }
