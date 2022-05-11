@@ -3985,3 +3985,27 @@ Terms & Conditions
 23:04:14.412 [main] DEBUG BusinessLogic.BussinessFun - Application property loaded
 23:04:15.816 [main] DEBUG BusinessLogic.BussinessFun - Decoded password:LW5kaWFAMTIzNTQ=
 23:04:15.969 [main] DEBUG BusinessLogic.BussinessFun - User name Entered :Test
+23:23:15.384 [main] INFO  Util.GlobalFunction - Scenario called 
+23:23:15.413 [main] INFO  Util.GlobalFunction - ###############################################################
+23:23:15.415 [main] INFO  Util.GlobalFunction - Test case Name:Validate if user able to login with Correct 'User' credentials
+23:23:15.416 [main] INFO  Util.GlobalFunction - ###############################################################
+23:23:15.416 [main] DEBUG Util.GlobalFunction - Test case Tag:TC3_User_InCorrectCredentials
+23:23:15.416 [main] DEBUG Util.GlobalFunction - Test case Tag:TC03
+23:23:15.912 [main] DEBUG BrowserAccess.BrowserControl - Driver initiated 
+23:23:15.913 [main] DEBUG BrowserAccess.BrowserControl - Chrome Browser lanuched Successfully
+23:23:24.642 [main] DEBUG BrowserAccess.BrowserControl - URLhttps://amazon.in/
+23:23:29.994 [main] DEBUG Stepdef.Login.Login - Browser initiated...
+23:23:30.002 [main] DEBUG Stepdef.Login.Login - Selected test data...3
+23:23:30.005 [main] DEBUG Stepdef.Login.Login - calling Excel util
+23:23:30.153 [main] INFO  Util.ExcelReaderFillo - Excel sheet called
+23:23:31.097 [main] DEBUG Util.ExcelReaderFillo - Excel path  src\test\resources\inputdata.xls
+23:23:31.115 [main] DEBUG Util.ExcelReaderFillo - Excel connection opened  
+23:23:31.116 [main] DEBUG Util.ExcelReaderFillo - Excel path  Select * from Login
+23:23:31.479 [main] INFO  Util.ExcelReaderFillo - Excel connection closed 
+23:23:31.550 [main] DEBUG BusinessLogic.BussinessFun - Application property loaded
+23:23:33.154 [main] DEBUG BusinessLogic.BussinessFun - Decoded password:LW5kaWFAMTIzNTQ=
+23:23:34.161 [main] DEBUG BusinessLogic.BussinessFun - User name Entered :Test
+23:23:39.160 [main] INFO  Util.ReportGeneration - ###############################################################
+23:23:39.161 [main] DEBUG Util.ReportGeneration - Report Generation called
+23:23:43.698 [main] DEBUG Util.ReportGeneration - Report Generated
+23:23:43.698 [main] INFO  Util.ReportGeneration - ###############################################################
