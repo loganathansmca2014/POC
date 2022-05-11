@@ -17,11 +17,11 @@ import org.testng.annotations.AfterSuite;
 @CucumberOptions(
         features = "src/test/resources/Features",
         glue = {"Stepdef"},
-        tags = {"@TC01"},
+        tags = {"@TC03"},
         plugin = { "com.cucumber.listener.ExtentCucumberFormatter:target/html/POCReport.html","json:target/cucumber.json",
                 "html:target/cucumber-reports/html"},
         monochrome = true)
-public class TestRunner1  {
+public class TestRunnerJunit  {
 
 
     @AfterSuite

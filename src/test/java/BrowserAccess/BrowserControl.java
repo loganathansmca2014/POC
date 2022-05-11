@@ -2,11 +2,15 @@ package BrowserAccess;
 
 import BusinessLogic.BussinessFun;
 import Util.GlobalFunction;
+import Util.WebDriverFactory;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.lang.SystemUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
 
 
 import java.io.FileInputStream;
@@ -25,7 +29,7 @@ public class BrowserControl {
     public static String IE;
     private static final Logger logger = LogManager.getLogger(BrowserControl.class.getName());
 
-
+    public static ThreadLocal<WebDriver> threadLocalDriver = new ThreadLocal<>();
 
     public static void loadPropertiesFile() {
 
@@ -34,11 +38,11 @@ public class BrowserControl {
             String filename = "src/test/resources/Browser.properties";
             BrowserControl.class.getClassLoader().getResourceAsStream(filename);
             prop.load(new FileInputStream(filename));
-            ChromeBrowser=prop.getProperty("ChromeBrowser");
-            Firebox=prop.getProperty("FirefoxBrowser");
-            IE=prop.getProperty("InternetExplorer");
+            ChromeBrowser = prop.getProperty("ChromeBrowser");
+            Firebox = prop.getProperty("FirefoxBrowser");
+            IE = prop.getProperty("InternetExplorer");
 
-            Edge=prop.getProperty("EdgeBrowser");
+            Edge = prop.getProperty("EdgeBrowser");
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -50,53 +54,41 @@ public class BrowserControl {
 
         //Load the properties file
         loadPropertiesFile();
+            if (ChromeBrowser.compareToIgnoreCase("Yes") == 0) {
+                logger.debug("Driver initiated ");
 
-        if (prop.getProperty("ChromeBrowser").compareToIgnoreCase("Yes") == 0) {
+                logger.debug("Chrome Browser lanuched Successfully");
+
+                WebDriverManager.chromedriver().setup();
+                //System.setProperty("webdriver.chrome.driver", getDriverPath());
+                WebDriverFactory.getInstance().setDriver();
+                threadLocalDriver.set(WebDriverFactory.INSTANCE.getDriver());
+                threadLocalDriver.get().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+                environment = prop.getProperty("URl");
+                logger.debug("URL" + environment);
+                threadLocalDriver.get().get(environment);
+
+
+            }
+
+        if (Edge.compareToIgnoreCase("Yes") == 0) {
             logger.debug("Driver initiated ");
-
-            logger.debug("Chrome Browser lanuched Successfully");
-            ChromeOptions chromeoptions = new ChromeOptions();
-            chromeoptions.setAcceptInsecureCerts(true);
-            //chromeoptions.addArguments("-headless");
-            chromeoptions.addArguments("-incognito");
-            System.setProperty("webdriver.chrome.driver", getDriverPath());
-            GlobalFunction.driver = new ChromeDriver(chromeoptions);
-            GlobalFunction.driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-            GlobalFunction.driver.manage().window().maximize();
-            environment=prop.getProperty("URl");
-            logger.debug("URL"+environment);
-            GlobalFunction.driver.get(environment);
+            WebDriverManager.edgedriver().setup();
+            threadLocalDriver.set(WebDriverFactory.INSTANCE.getDriver());
+            WebDriverFactory.getInstance().driver = new EdgeDriver();
+            logger.debug("Edge Browser lanuched Successfully");
+            WebDriverFactory.getInstance().getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+            WebDriverFactory.getInstance().getDriver().manage().window().maximize();
+            environment = prop.getProperty("URl");
+            logger.debug("URL" + environment);
+            WebDriverFactory.getInstance().getDriver().get(environment);
 
 
         }
 
-       /* if (prop.getProperty("FirefoxBrowser").compareToIgnoreCase("Yes") == 0) {
-            System.setProperty("webdriver.gecko.driver", getDriverPath());
-
-            ReusableFunction.driver = new FirefoxDriver();
-            ReusableFunction.driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-            ReusableFunction.driver.manage().window().maximize();
-            ReusableFunction.driver.get(prop.getProperty("DEV"));
-
-
-        }
-
-        if (prop.getProperty("InternetExplorer").compareToIgnoreCase("Yes") == 0) {
-            System.setProperty("webdriver.ie.driver", getDriverPath());
-            ReusableFunction.driver = new InternetExplorerDriver();
-            ReusableFunction.driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-            ReusableFunction.driver.manage().window().maximize();
-            ReusableFunction.driver.get(prop.getProperty("DEV"));
-        }
-
-        if (prop.getProperty("EdgeBrowser").compareToIgnoreCase("Yes") == 0) {
-            System.setProperty("webdriver.edge.driver", getDriverPath());
-            ReusableFunction.driver = new EdgeDriver();
-            ReusableFunction.driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-            ReusableFunction.driver.manage().window().maximize();
-            ReusableFunction.driver.get(prop.getProperty("DEV"));
-        }*/
     }
+
+
 
     private String getDriverPath() {
         String driverPath = "drivers/%s";
@@ -105,6 +97,7 @@ public class BrowserControl {
         } else {
             return String.format(driverPath, "chromedriver.exe");
         }
+
     }
 
     public static BrowserControl getInstance() {
