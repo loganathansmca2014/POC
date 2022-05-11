@@ -34,10 +34,11 @@ public class BussinessFun {
       GlobalFunction.scenario.write(LoginPageLocators.usernameerrorlabel.getText());
       GlobalFunction.selectionScreenshot();
     }
-  assert LoginPageLocators.pass.isDisplayed();
-      LoginPageLocators.pass.sendKeys(decodedString);
-      LoginPageLocators.sgnBtn.click();
-      GlobalFunction.selectionScreenshot();
+  if( LoginPageLocators.pass.isDisplayed()) {
+    LoginPageLocators.pass.sendKeys(decodedString);
+    LoginPageLocators.sgnBtn.click();
+    GlobalFunction.selectionScreenshot();
+  }
 
     if ((username.trim().isEmpty()) && (pass.trim().isEmpty())) {
       LoginPageLocators.sgnBtn.click();
