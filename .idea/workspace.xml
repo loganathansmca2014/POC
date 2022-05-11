@@ -5,45 +5,86 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="937e249d-42fc-42d9-aeeb-100cc326535e" name="Changes" comment="POC|Code|Commited by Loganathan Sengottaiyan">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_29_2022_12_24_AM_[Changes]/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_29_2022_12_24_AM_[Changes]/inputdata.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_29_2022_12_24_AM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_29_2022_12_24_AM_[Changes]1/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_29_2022_12_24_AM_[Changes]1/inputdata.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_29_2022_12_24_AM_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_29_2022_12_24_AM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_29_2022_12_24_AM__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/Testlog-2022-05-03.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/Testlog.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-failures.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-features.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-steps.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-feature_4175935524.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-feature_4175935524.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_1149411702.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_1149411702.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2123072328.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2123072328.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2149458199.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2149458199.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2209157359.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2209157359.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2209157360.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2209157360.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2209157361.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2209157361.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2209157362.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2209157362.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2226523296.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2226523296.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_3291646935.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_3291646935.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_3420270740.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_3420270740.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_3869959439.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_3869959439.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_4059758862.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_4059758862.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_45862985.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_45862985.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_536606160.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_536606160.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/css/cucumber.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_-1093611596.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_-1145445615.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_-1173737529.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_-1253361877.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_-1547806708.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_-1636497659.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_-178534319.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_-1872551747.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_-1882555948.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_-265780446.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_-296875524.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_-404277536.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_-417441956.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_-442697608.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_-541641841.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_-682365528.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_-918016519.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_-946173044.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_1171825938.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_1239986123.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_1288575775.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_1661501140.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_1856014180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_1877089819.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_2043005003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_421349483.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_579125607.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_640174578.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_695991537.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_723940130.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_784932784.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_792748730.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/embeddings/embedding_951610396.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/js/Chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/js/jquery.tablesorter.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/js/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-failures.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-features.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-steps.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-tags.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-feature_4175935524.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_1149411702.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2123072328.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2149458199.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2209157359.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2209157360.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2209157361.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2209157362.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2226523296.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_3291646935.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_3420270740.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_3869959439.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_4059758862.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_45862985.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_536606160.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BrowserAccess/BrowserControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BrowserAccess/BrowserControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BusinessLogic/BussinessFun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BusinessLogic/BussinessFun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Stepdef/Login/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Stepdef/Login/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Util/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Util/ExcelReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Util/ExcelReaderFillo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Util/ExcelReaderFillo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/TestRunnerTestNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/TestRunner1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/TestRunnerJunit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Util/GlobalFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Util/GlobalFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Util/ReportGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Util/ReportGeneration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/POC_Practices.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/POC_Practices.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/extent.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +105,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="POC" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -114,16 +155,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/Util" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\HCL POC\AutomationFrameworkS\src\test\java\Util" />
       <recent name="E:\HCL POC\AutomationFrameworkS\src\test\resources" />
       <recent name="E:\HCL POC\AutomationFrameworkS" />
       <recent name="E:\HCL POC\AutomationFrameworkS\src\test\java\Stepdef\Login" />
       <recent name="C:\Users\DELL\Desktop\AutomationFF\AutomationFrameworkS\src\test\resources\Features" />
-      <recent name="C:\Users\DELL\Desktop\AutomationFF\AutomationFrameworkS\src\test\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\HCL POC\AutomationFrameworkS\src\test\resources" />
@@ -140,63 +181,12 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.TestNg">
-    <configuration name="Unnamed" type="AndroidRunConfigurationType" factoryName="Android App" nameIsGenerated="true">
-      <option name="DEPLOY" value="true" />
-      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
-      <option name="DEPLOY_AS_INSTANT" value="false" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <Java />
-      <Profilers>
-        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="DBTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practice.DBTest" />
       <module name="AutomationFrameworkS" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExcelReaderFillo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Util.ExcelReaderFillo" />
-      <module name="AutomationFrameworkS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.Test" />
-      <module name="AutomationFrameworkS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,17 +234,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+    <configuration name="TestRunnerJunit" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="AutomationFrameworkS" />
       <option name="PACKAGE_NAME" value="Runner" />
-      <option name="MAIN_CLASS_NAME" value="Runner.TestRunner1" />
+      <option name="MAIN_CLASS_NAME" value="Runner.TestRunnerJunit" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutomationFrameworkS [purge]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+    <configuration name="AutomationFrameworkS [clean]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -265,7 +255,7 @@
             </option>
             <option name="goals">
               <list>
-                <option value="purge" />
+                <option value="clean" />
               </list>
             </option>
             <option name="pomFileName" />
@@ -279,13 +269,30 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="FailedRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationFrameworkS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Runner" />
+      <option name="MAIN_CLASS_NAME" value="Runner.FailedRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestNg" type="TestNG">
       <module name="AutomationFrameworkS" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="Runner" />
-      <option name="MAIN_CLASS_NAME" value="Runner.TestRunner" />
+      <option name="MAIN_CLASS_NAME" value="Runner.TestRunnerTestNG" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="PARAMETERS" value="" />
@@ -300,24 +307,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRunnerTngExtentReport" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationFrameworkS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Runner" />
+      <option name="MAIN_CLASS_NAME" value="Runner.TestRunnerTngExtentReport" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Android App.Unnamed" />
-      <item itemvalue="Application.ExcelReaderFillo" />
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.DBTest" />
       <item itemvalue="Cucumber Java.Scenario: TC01_To login CRM page" />
       <item itemvalue="Cucumber Java.Scenario: TC01_To login CRM page (1)" />
-      <item itemvalue="JUnit.Unnamed" />
-      <item itemvalue="Maven.AutomationFrameworkS [purge]" />
+      <item itemvalue="JUnit.TestRunnerJunit" />
+      <item itemvalue="Maven.AutomationFrameworkS [clean]" />
       <item itemvalue="TestNG.TestNg" />
+      <item itemvalue="TestNG.FailedRunner" />
+      <item itemvalue="TestNG.TestRunnerTngExtentReport" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestRunnerTngExtentReport" />
+        <item itemvalue="TestNG.FailedRunner" />
         <item itemvalue="Cucumber Java.Scenario: TC01_To login CRM page (1)" />
         <item itemvalue="Cucumber Java.Scenario: TC01_To login CRM page" />
         <item itemvalue="Application.DBTest" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ExcelReaderFillo" />
       </list>
     </recent_temporary>
   </component>
@@ -372,13 +395,13 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Runner/TestRunner1.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/Runner/TestRunnerJunit.java</url>
           <line>23</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Util/GlobalFunction.java</url>
-          <line>104</line>
+          <line>119</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

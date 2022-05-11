@@ -20,9 +20,9 @@ public class BussinessFun {
   private static  Logger logger = LogManager.getLogger(BussinessFun.class.getName());
 
   public void loginAuthentication(String username, String pass) throws IOException {
-    PageFactory.initElements(GlobalFunction.driver, LoginPageLocators.class);
+    PageFactory.initElements(WebDriverFactory.getInstance().getDriver(), LoginPageLocators.class);
     logger.debug("Application property loaded");
-    Actions act = new Actions(GlobalFunction.driver);
+    Actions act = new Actions(WebDriverFactory.getInstance().getDriver());
     act.moveToElement(LoginPageLocators.account).build().perform();
     LoginPageLocators.signBtn.click();
     String decodedString = new String(Base64.getDecoder().decode(pass.trim()));
@@ -34,11 +34,10 @@ public class BussinessFun {
       GlobalFunction.scenario.write(LoginPageLocators.usernameerrorlabel.getText());
       GlobalFunction.selectionScreenshot();
     }
-    if (LoginPageLocators.pass.isDisplayed()) {
+  assert LoginPageLocators.pass.isDisplayed();
       LoginPageLocators.pass.sendKeys(decodedString);
       LoginPageLocators.sgnBtn.click();
       GlobalFunction.selectionScreenshot();
-    }
 
     if ((username.trim().isEmpty()) && (pass.trim().isEmpty())) {
       LoginPageLocators.sgnBtn.click();
@@ -50,7 +49,7 @@ public class BussinessFun {
 
 
   public void validateOerdeItms() {
-    PageFactory.initElements(GlobalFunction.driver, HomePageLocators.class);
+    PageFactory.initElements(WebDriverFactory.getInstance().getDriver(), HomePageLocators.class);
     if (HomePageLocators.ordersItems.isDisplayed()) {
       HomePageLocators.ordersItems.click();
       GlobalFunction.scenario.write("Order items Clicked #:" + HomePageLocators.ordersItems.getText());
@@ -65,14 +64,14 @@ public class BussinessFun {
   }
 
   public void userSelectLastestOrderAndViewDetails() {
-    PageFactory.initElements(GlobalFunction.driver, HomePageLocators.class);
+    PageFactory.initElements(WebDriverFactory.getInstance().getDriver(), HomePageLocators.class);
 
     List<String> view_Order = HomePageLocators.View_order_details.stream().map(WebElement::getText)
             .collect(Collectors.toList());
     for (String ActualViewOrder : view_Order) {
       if (ActualViewOrder.equalsIgnoreCase("View order details")) {
         HomePageLocators.View_order_details.stream().filter(It -> It.getText().equalsIgnoreCase("View order details")).findFirst().ifPresent(WebElement::click);
-        GlobalFunction.fullpageScreenshot();
+        //GlobalFunction.fullpageScreenshot();
         break;
       }
     }
@@ -80,8 +79,8 @@ public class BussinessFun {
   }
 
   public void userGetTheInformation() {
-    PageFactory.initElements(GlobalFunction.driver, HomePageLocators.class);
-    PageFactory.initElements(GlobalFunction.driver, OrderPageLocators.class);
+    PageFactory.initElements(WebDriverFactory.getInstance().getDriver(), HomePageLocators.class);
+    PageFactory.initElements(WebDriverFactory.getInstance().getDriver(), OrderPageLocators.class);
     if (HomePageLocators.ordernumber.isDisplayed()) {
       GlobalFunction.scenario.write("Order#:" + HomePageLocators.ordernumber.getText());
       logger.debug("Order#:" + HomePageLocators.ordernumber.getText());

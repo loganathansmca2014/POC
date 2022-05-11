@@ -20,7 +20,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 
 public class GlobalFunction  {
-    public static WebDriver driver;
+   // public static WebDriver driver;
     public static GlobalFunction INSTANCE = new GlobalFunction();
     public static Scenario scenario;
     static String testCaseID = "";
@@ -56,24 +56,39 @@ public class GlobalFunction  {
             try {
 
                 ByteArrayOutputStream baos = new ByteArrayOutputStream();
-                BufferedImage image = Shutterbug.shootPage(driver, ScrollStrategy.BOTH_DIRECTIONS).getImage();
+                BufferedImage image = Shutterbug.shootPage(WebDriverFactory.getInstance().getDriver(), ScrollStrategy.BOTH_DIRECTIONS).getImage();
                 ImageIO.write(image, "png", baos);
                 baos.flush();
                 scenario.embed(baos.toByteArray(), "image/png");
-                driver.quit();
+
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            driver.quit();
+    WebDriverFactory.INSTANCE.driver.quit();
         }
-        driver.quit();
+      WebDriverFactory.INSTANCE.driver.quit();
+
 
     }
+    @After
+    public void embedScreenshot(Scenario scenario) {
+
+      if (scenario.isFailed()) {
+        try {
+// byte[] screenshot = getScreenshotAs(OutputType.BYTES);
+          byte[] screenshot = ((TakesScreenshot) WebDriverFactory.getInstance().getDriver()).getScreenshotAs(OutputType.BYTES);
+          scenario.embed(screenshot, "image/png");
+        } finally {
+          WebDriverFactory.getInstance().getDriver().quit();
+        }
+      }
+    }
+
     public static void fullpageScreenshot() {
         if (scenario!=null&& !scenario.isFailed()) {
             try {
                 ByteArrayOutputStream baos = new ByteArrayOutputStream();
-                BufferedImage image = Shutterbug.shootPage(driver, ScrollStrategy.BOTH_DIRECTIONS).getImage();
+                BufferedImage image = Shutterbug.shootPage(WebDriverFactory.getInstance().getDriver(), ScrollStrategy.BOTH_DIRECTIONS).getImage();
                 ImageIO.write(image, "png", baos);
                 baos.flush();
                 scenario.embed(baos.toByteArray(), "image/png");
@@ -90,7 +105,7 @@ public class GlobalFunction  {
     public static void selectionScreenshot() {
         if (scenario!=null &&!scenario.isFailed()) {
             try {
-                final byte[] screenshot=((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+                final byte[] screenshot=((TakesScreenshot) WebDriverFactory.getInstance().getDriver()).getScreenshotAs(OutputType.BYTES);
                 scenario.embed(screenshot,"image/png");
 
             } catch (Exception e) {
