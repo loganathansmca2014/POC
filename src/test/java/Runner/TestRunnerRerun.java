@@ -15,7 +15,7 @@ import org.testng.annotations.AfterSuite;
                 "html:target/cucumber-reports/html",
                "rerun:target/failedrerun.txt" },
         monochrome = true)
-public class FailedRunner extends AbstractTestNGCucumberTests {
+public class TestRunnerRerun extends AbstractTestNGCucumberTests {
 
 
   @AfterSuite
