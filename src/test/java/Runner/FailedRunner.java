@@ -13,7 +13,7 @@ import org.testng.annotations.AfterSuite;
         tags = {"@TC03"},
         plugin = { "json:target/cucumber.json",
                 "html:target/cucumber-reports/html",
-                },
+               "rerun:target/failedrerun.txt" },
         monochrome = true)
 public class FailedRunner extends AbstractTestNGCucumberTests {
 

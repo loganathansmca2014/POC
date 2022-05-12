@@ -1,0 +1,44 @@
+09:44:50.814 [main] INFO  Util.GlobalFunction - Scenario called 
+09:44:50.829 [main] INFO  Util.GlobalFunction - ###############################################################
+09:44:50.829 [main] INFO  Util.GlobalFunction - Test case Name:Validate if user able to login with Correct 'User' credentials
+09:44:50.829 [main] INFO  Util.GlobalFunction - ###############################################################
+09:44:50.829 [main] DEBUG Util.GlobalFunction - Test case Tag:TC3_User_InCorrectCredentials
+09:44:50.829 [main] DEBUG Util.GlobalFunction - Test case Tag:TC03
+09:44:51.161 [main] DEBUG BrowserAccess.BrowserControl - Driver initiated 
+09:44:51.161 [main] DEBUG BrowserAccess.BrowserControl - Chrome Browser lanuched Successfully
+09:44:54.606 [main] DEBUG BrowserAccess.BrowserControl - URLhttps://amazon.in/
+09:44:58.535 [main] DEBUG Stepdef.Login.Login - Browser initiated...
+09:44:58.541 [main] DEBUG Stepdef.Login.Login - Selected test data...3
+09:44:58.543 [main] DEBUG Stepdef.Login.Login - calling Excel util
+09:44:58.548 [main] INFO  Util.ExcelReaderFillo - Excel sheet called
+09:44:59.441 [main] DEBUG Util.ExcelReaderFillo - Excel path  src\test\resources\inputdata.xls
+09:44:59.441 [main] DEBUG Util.ExcelReaderFillo - Excel connection opened  
+09:44:59.442 [main] DEBUG Util.ExcelReaderFillo - Excel path  Select * from Login
+09:44:59.674 [main] INFO  Util.ExcelReaderFillo - Excel connection closed 
+09:44:59.779 [main] DEBUG BusinessLogic.BussinessFun - Application property loaded
+09:45:02.013 [main] DEBUG BusinessLogic.BussinessFun - Decoded password:LW5kaWFAMTIzNTQ=
+09:45:02.167 [main] DEBUG BusinessLogic.BussinessFun - User name Entered :Test
+09:45:04.768 [main] INFO  Util.ReportGeneration - ###############################################################
+09:45:04.768 [main] DEBUG Util.ReportGeneration - Report Generation called
+09:45:07.022 [main] DEBUG Util.ReportGeneration - Report Generated
+09:45:07.022 [main] INFO  Util.ReportGeneration - ###############################################################
+09:45:25.143 [main] INFO  Util.GlobalFunction - Scenario called 
+09:45:25.159 [main] INFO  Util.GlobalFunction - ###############################################################
+09:45:25.159 [main] INFO  Util.GlobalFunction - Test case Name:Validate if user able to login with Correct 'User' credentials
+09:45:25.159 [main] INFO  Util.GlobalFunction - ###############################################################
+09:45:25.159 [main] DEBUG Util.GlobalFunction - Test case Tag:TC3_User_InCorrectCredentials
+09:45:25.159 [main] DEBUG Util.GlobalFunction - Test case Tag:TC03
+09:45:25.546 [main] DEBUG BrowserAccess.BrowserControl - Driver initiated 
+09:45:25.546 [main] DEBUG BrowserAccess.BrowserControl - Chrome Browser lanuched Successfully
+09:45:28.915 [main] DEBUG BrowserAccess.BrowserControl - URLhttps://amazon.in/
+09:45:33.633 [main] DEBUG Stepdef.Login.Login - Browser initiated...
+09:45:33.649 [main] DEBUG Stepdef.Login.Login - Selected test data...3
+09:45:33.655 [main] DEBUG Stepdef.Login.Login - calling Excel util
+09:45:33.662 [main] INFO  Util.ExcelReaderFillo - Excel sheet called
+09:45:34.364 [main] DEBUG Util.ExcelReaderFillo - Excel path  src\test\resources\inputdata.xls
+09:45:34.367 [main] DEBUG Util.ExcelReaderFillo - Excel connection opened  
+09:45:34.368 [main] DEBUG Util.ExcelReaderFillo - Excel path  Select * from Login
+09:45:34.689 [main] INFO  Util.ExcelReaderFillo - Excel connection closed 
+09:45:34.759 [main] DEBUG BusinessLogic.BussinessFun - Application property loaded
+09:45:36.563 [main] DEBUG BusinessLogic.BussinessFun - Decoded password:LW5kaWFAMTIzNTQ=
+09:45:36.761 [main] DEBUG BusinessLogic.BussinessFun - User name Entered :Test

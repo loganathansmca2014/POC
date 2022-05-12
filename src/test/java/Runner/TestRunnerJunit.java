@@ -19,7 +19,8 @@ import org.testng.annotations.AfterSuite;
         glue = {"Stepdef"},
         tags = {"@TC03"},
         plugin = { "com.cucumber.listener.ExtentCucumberFormatter:target/html/POCReport.html","json:target/cucumber.json",
-                "html:target/cucumber-reports/html"},
+                "html:target/cucumber-reports/html",
+       "rerun:target/failedrerun.txt" },
         monochrome = true)
 public class TestRunnerJunit  {
 

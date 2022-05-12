@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="937e249d-42fc-42d9-aeeb-100cc326535e" name="Changes" comment="Merge remote-tracking branch 'origin/POC' into POC">
-      <change beforePath="$PROJECT_DIR$/TraceLogs/TraceConsole-2022-05-11.log" beforeDir="false" afterPath="$PROJECT_DIR$/TraceLogs/TraceConsole-2022-05-11.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BusinessLogic/BussinessFun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BusinessLogic/BussinessFun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/FailedRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/FailedRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/TestRunnerJunit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/TestRunnerJunit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +103,7 @@
       <recent name="Runner" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestNg">
+  <component name="RunManager" selected="JUnit.TestRunnerJunit">
     <configuration name="DBTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practice.DBTest" />
       <module name="AutomationFrameworkS" />
@@ -310,7 +311,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652291535552</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Merge remote-tracking branch 'origin/POC' into POC">
+      <created>1652328602082</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652328602083</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Merge remote-tracking branch 'origin/POC' into POC">
+      <created>1652328706557</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1652328706557</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
