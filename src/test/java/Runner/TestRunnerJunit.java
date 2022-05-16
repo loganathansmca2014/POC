@@ -17,7 +17,7 @@ import org.testng.annotations.AfterSuite;
 @CucumberOptions(
         features = "src/test/resources/Features",
         glue = {"Stepdef"},
-        tags = {"@TC03"},
+        tags = {"@Automation"},
         plugin = { "com.cucumber.listener.ExtentCucumberFormatter:target/html/POCReport.html","json:target/cucumber.json",
                 "html:target/cucumber-reports/html",
        "rerun:target/failedrerun.txt" },

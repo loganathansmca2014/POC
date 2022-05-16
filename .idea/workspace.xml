@@ -6,7 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="937e249d-42fc-42d9-aeeb-100cc326535e" name="Changes" comment="Merge remote-tracking branch 'origin/POC' into POC">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/TestRunnerTestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/TestRunnerTestNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TraceLogs/TraceConsole-2022-05-12.log" beforeDir="false" afterPath="$PROJECT_DIR$/TraceLogs/TraceConsole-2022-05-12.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-feature_2309942542.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-feature_2309942542.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_1149411702.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_1149411702.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2209157361.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2209157361.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_3420270740.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_3420270740.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_3869959439.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_3869959439.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_4059758862.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_4059758862.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/TestRunnerJunit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/TestRunnerJunit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +114,7 @@
       <recent name="Runner" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestRunnerJunit">
+  <component name="RunManager" selected="TestNG.TestNg">
     <configuration name="DBTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practice.DBTest" />
       <module name="AutomationFrameworkS" />
@@ -166,7 +178,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutomationFrameworkS [clean]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+    <configuration name="AutomationFrameworkS [clean,install]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -178,6 +190,7 @@
             <option name="goals">
               <list>
                 <option value="clean" />
+                <option value="install" />
               </list>
             </option>
             <option name="pomFileName" />
@@ -190,23 +203,6 @@
         </option>
       </MavenSettings>
       <method v="2" />
-    </configuration>
-    <configuration name="FailedRunner" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationFrameworkS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Runner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Runner" />
-      <option name="MAIN_CLASS_NAME" value="Runner.FailedRunner" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="TestNg" type="TestNG">
       <module name="AutomationFrameworkS" />
@@ -223,6 +219,23 @@
         <value defaultName="moduleWithDependencies" />
       </option>
       <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunnerRerun" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationFrameworkS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Runner" />
+      <option name="MAIN_CLASS_NAME" value="Runner.TestRunnerRerun" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -251,15 +264,15 @@
       <item itemvalue="Cucumber Java.Scenario: TC01_To login CRM page" />
       <item itemvalue="Cucumber Java.Scenario: TC01_To login CRM page (1)" />
       <item itemvalue="JUnit.TestRunnerJunit" />
-      <item itemvalue="Maven.AutomationFrameworkS [clean]" />
+      <item itemvalue="Maven.AutomationFrameworkS [clean,install]" />
       <item itemvalue="TestNG.TestNg" />
-      <item itemvalue="TestNG.FailedRunner" />
       <item itemvalue="TestNG.TestRunnerTngExtentReport" />
+      <item itemvalue="TestNG.TestRunnerRerun" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.TestRunnerTngExtentReport" />
-        <item itemvalue="TestNG.FailedRunner" />
+        <item itemvalue="TestNG.TestRunnerRerun" />
         <item itemvalue="Cucumber Java.Scenario: TC01_To login CRM page (1)" />
         <item itemvalue="Cucumber Java.Scenario: TC01_To login CRM page" />
         <item itemvalue="Application.DBTest" />
@@ -331,7 +344,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652329049077</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/POC' into POC">
+      <created>1652329375192</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1652329375192</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'origin/POC' into POC">
+      <created>1652329550376</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1652329550376</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
