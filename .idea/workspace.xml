@@ -6,19 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="937e249d-42fc-42d9-aeeb-100cc326535e" name="Changes" comment="Merge remote-tracking branch 'origin/POC' into POC">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TraceLogs/TraceConsole-2022-05-12.log" beforeDir="false" afterPath="$PROJECT_DIR$/TraceLogs/TraceConsole-2022-05-12.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-failures.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-features.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-steps.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-feature_2309942542.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-feature_2309942542.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_1149411702.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_1149411702.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2209157361.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2209157361.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_3420270740.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_3420270740.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_3869959439.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_3869959439.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_4059758862.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_4059758862.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runner/TestRunnerJunit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runner/TestRunnerJunit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +76,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/Util" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Practice" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
@@ -358,7 +345,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652329550376</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Merge remote-tracking branch 'origin/POC' into POC">
+      <created>1652678525835</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1652678525835</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Merge remote-tracking branch 'origin/POC' into POC">
+      <created>1652680215588</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1652680215588</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
