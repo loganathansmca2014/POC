@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/Features/POC_Practices.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("POC_Practices.feature");
 formatter.feature({
   "line": 2,
   "name": "This feature is created for POC purpose",
@@ -96,7 +96,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1655019700,
+  "duration": 1901051500,
   "status": "passed"
 });
 formatter.background({
@@ -177,7 +177,7 @@ formatter.match({
   "location": "Login.theUserLaunchesTheApplication()"
 });
 formatter.result({
-  "duration": 13362680999,
+  "duration": 7213695800,
   "status": "passed"
 });
 formatter.match({
@@ -190,7 +190,7 @@ formatter.match({
   "location": "Login.theUserEntersTheUsernameAndPasswordInThe(int)"
 });
 formatter.result({
-  "duration": 5954000,
+  "duration": 6301600,
   "status": "passed"
 });
 formatter.match({
@@ -198,7 +198,7 @@ formatter.match({
 });
 formatter.embedding("image/png", "embedded0.png");
 formatter.result({
-  "duration": 9778923301,
+  "duration": 7714571900,
   "status": "passed"
 });
 formatter.match({
@@ -206,14 +206,14 @@ formatter.match({
 });
 formatter.write("Order items Clicked #:Returns");
 formatter.result({
-  "duration": 3812885301,
+  "duration": 3720509800,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.userSelectLastestOrderAndViewDetails()"
 });
 formatter.result({
-  "duration": 3904803601,
+  "duration": 3559853600,
   "status": "passed"
 });
 formatter.match({
@@ -224,15 +224,15 @@ formatter.write("Order#:Payment Method\nNet Banking: HDFC Bank\nBooking summary\
 formatter.write("Order#:Bus Booking\nTicket ID: 6755TS4J\nPNR: VTA-AP-697772630305\nJourney completed\nHope you had a pleasant journey!\nChennaiTiruchengodu\nVetri Travels\nA/C Sleeper (2+1)\nBoarding Point:\n10:25 PMSun, 08 May\nPALLAVARAM (KPN BUNK)\nDuration\n6h 58m\nDrop Point:\n05:23 AMMon, 09 May\nMANIKAMPAMPALAYAM\nPALLAVARAM (KPN BUNK)\nNEAR BUS STOP\nTravellers (2) Seat number\nLoganathanMale, 28 Years (Primary Traveller) L8\nIniyanMale, 5 Years L9\nBook another bus\nDownload e-ticket\nCancellation \u0026 travel policy\nGet help\nTerms \u0026 Conditions");
 formatter.embedding("image/png", "embedded1.png");
 formatter.result({
-  "duration": 4283292600,
+  "duration": 3940022900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1294204500,
+  "duration": 149500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 102100,
+  "duration": 896445800,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -319,7 +319,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 4440600,
+  "duration": 4264600,
   "status": "passed"
 });
 formatter.background({
@@ -400,7 +400,7 @@ formatter.match({
   "location": "Login.theUserLaunchesTheApplication()"
 });
 formatter.result({
-  "duration": 7690018100,
+  "duration": 5488594500,
   "status": "passed"
 });
 formatter.match({
@@ -413,7 +413,7 @@ formatter.match({
   "location": "Login.theUserEntersTheUsernameAndPasswordInThe(int)"
 });
 formatter.result({
-  "duration": 500800,
+  "duration": 674700,
   "status": "passed"
 });
 formatter.match({
@@ -421,7 +421,7 @@ formatter.match({
 });
 formatter.embedding("image/png", "embedded2.png");
 formatter.result({
-  "duration": 8329819099,
+  "duration": 7766532500,
   "status": "passed"
 });
 formatter.match({
@@ -429,14 +429,14 @@ formatter.match({
 });
 formatter.write("Order items Clicked #:Returns");
 formatter.result({
-  "duration": 3047886601,
+  "duration": 3572109200,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.userSelectLastestOrderAndViewDetails()"
 });
 formatter.result({
-  "duration": 3278249400,
+  "duration": 3081117300,
   "status": "passed"
 });
 formatter.match({
@@ -447,15 +447,15 @@ formatter.write("Order#:Payment Method\nNet Banking: HDFC Bank\nBooking summary\
 formatter.write("Order#:Bus Booking\nTicket ID: 6755TS4J\nPNR: VTA-AP-697772630305\nJourney completed\nHope you had a pleasant journey!\nChennaiTiruchengodu\nVetri Travels\nA/C Sleeper (2+1)\nBoarding Point:\n10:25 PMSun, 08 May\nPALLAVARAM (KPN BUNK)\nDuration\n6h 58m\nDrop Point:\n05:23 AMMon, 09 May\nMANIKAMPAMPALAYAM\nPALLAVARAM (KPN BUNK)\nNEAR BUS STOP\nTravellers (2) Seat number\nLoganathanMale, 28 Years (Primary Traveller) L8\nIniyanMale, 5 Years L9\nBook another bus\nDownload e-ticket\nCancellation \u0026 travel policy\nGet help\nTerms \u0026 Conditions");
 formatter.embedding("image/png", "embedded3.png");
 formatter.result({
-  "duration": 3495159999,
+  "duration": 3551081000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1475690000,
+  "duration": 78600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 51799,
+  "duration": 982474700,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -523,7 +523,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 6615100,
+  "duration": 6145700,
   "status": "passed"
 });
 formatter.background({
@@ -585,7 +585,7 @@ formatter.match({
   "location": "Login.theUserLaunchesTheApplication()"
 });
 formatter.result({
-  "duration": 6871920500,
+  "duration": 5021026300,
   "status": "passed"
 });
 formatter.match({
@@ -598,7 +598,7 @@ formatter.match({
   "location": "Login.theUserEntersTheUsernameAndPasswordInThe(int)"
 });
 formatter.result({
-  "duration": 364601,
+  "duration": 517300,
   "status": "passed"
 });
 formatter.match({
@@ -607,15 +607,15 @@ formatter.match({
 formatter.write("There was a problem\nWe cannot find an account with that email address");
 formatter.embedding("image/png", "embedded4.png");
 formatter.result({
-  "duration": 3078729300,
+  "duration": 3894028700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1038012700,
+  "duration": 62200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 87300,
+  "duration": 870748800,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -683,7 +683,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 14324700,
+  "duration": 3397900,
   "status": "passed"
 });
 formatter.background({
@@ -745,7 +745,7 @@ formatter.match({
   "location": "Login.theUserLaunchesTheApplication()"
 });
 formatter.result({
-  "duration": 8340555200,
+  "duration": 5668981900,
   "status": "passed"
 });
 formatter.match({
@@ -758,7 +758,7 @@ formatter.match({
   "location": "Login.theUserEntersTheUsernameAndPasswordInThe(int)"
 });
 formatter.result({
-  "duration": 413399,
+  "duration": 595900,
   "status": "passed"
 });
 formatter.match({
@@ -767,15 +767,15 @@ formatter.match({
 formatter.write("There was a problem\nWe cannot find an account with that email address");
 formatter.embedding("image/png", "embedded5.png");
 formatter.result({
-  "duration": 3135242800,
+  "duration": 3265779900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 972083701,
+  "duration": 73500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 90900,
+  "duration": 896624200,
   "status": "passed"
 });
 });

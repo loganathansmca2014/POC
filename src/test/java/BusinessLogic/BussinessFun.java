@@ -19,6 +19,16 @@ public class BussinessFun {
   public static BussinessFun INSTANCE = new BussinessFun();
   private static  Logger logger = LogManager.getLogger(BussinessFun.class.getName());
 
+  /****************************************************************************************
+   * DESCRIPTION:This method is used to fetch username and password for amazon portal
+   * Created By:Loganathan Sengottaiyan
+   * Created DATE:10 May 2021
+   * UPDATED BY:
+   * UPDATED DATE :
+   * method:loginAuthentication(test test12345)
+   * Example:
+   * /
+   ****************************************************************************************/
   public void loginAuthentication(String username, String pass) throws IOException {
     PageFactory.initElements(WebDriverFactory.getInstance().getDriver(), LoginPageLocators.class);
     logger.debug("Application property loaded");
@@ -48,6 +58,16 @@ public class BussinessFun {
 
   }
 
+  /****************************************************************************************
+   * DESCRIPTION:This method is used to fetch list of ordered items
+   * Created By:Loganathan Sengottaiyan
+   * Created DATE:10 May 2021
+   * UPDATED BY:
+   * UPDATED DATE :
+   * method:validateOerdeItms
+   * Example:
+   * /
+   ****************************************************************************************/
 
   public void validateOerdeItms() {
     PageFactory.initElements(WebDriverFactory.getInstance().getDriver(), HomePageLocators.class);
@@ -64,6 +84,17 @@ public class BussinessFun {
     return INSTANCE;
   }
 
+
+  /****************************************************************************************
+   * DESCRIPTION:This method is used to fetch latest order from list
+   * Created By:Loganathan Sengottaiyan
+   * Created DATE:10 May 2021
+   * UPDATED BY:
+   * UPDATED DATE :
+   * method:userSelectLastestOrderAndViewDetails
+   * Example:
+   * /
+   ****************************************************************************************/
   public void userSelectLastestOrderAndViewDetails() {
     PageFactory.initElements(WebDriverFactory.getInstance().getDriver(), HomePageLocators.class);
 
@@ -79,6 +110,16 @@ public class BussinessFun {
 
   }
 
+  /****************************************************************************************
+   * DESCRIPTION:This method is used to fetch product information
+   * Created By:Loganathan Sengottaiyan
+   * Created DATE:10 May 2021
+   * UPDATED BY:
+   * UPDATED DATE :
+   * method:userGetTheInformation
+   * Example:
+   * /
+   ****************************************************************************************/
   public void userGetTheInformation() {
     PageFactory.initElements(WebDriverFactory.getInstance().getDriver(), HomePageLocators.class);
     PageFactory.initElements(WebDriverFactory.getInstance().getDriver(), OrderPageLocators.class);
