@@ -66,7 +66,15 @@ public class BussinessFun {
 
   public void userSelectLastestOrderAndViewDetails() {
     PageFactory.initElements(WebDriverFactory.getInstance().getDriver(), HomePageLocators.class);
-
+    List<String> listMMYYYY = HomePageLocators.listofMMYYY.stream().map(WebElement::getText)
+            .collect(Collectors.toList());
+    for (String actualmmyyy : listMMYYYY) {
+      if (actualmmyyy.equalsIgnoreCase("2023")) {
+        HomePageLocators.listofMMYYY.stream().filter(It -> It.getText().equalsIgnoreCase("2023")).findFirst().ifPresent(WebElement::click);
+        //GlobalFunction.fullpageScreenshot();
+        break;
+      }
+    }
     List<String> view_Order = HomePageLocators.View_order_details.stream().map(WebElement::getText)
             .collect(Collectors.toList());
     for (String ActualViewOrder : view_Order) {

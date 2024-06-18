@@ -14,4 +14,7 @@ public class HomePageLocators {
 
     @FindBy(xpath = "(//a[text()[normalize-space()='View order details']])")
     public static List<WebElement > View_order_details;
+
+    @FindBy(xpath = "//*[contains(@name,'timeFilter')]//option")
+    public static List<WebElement> listofMMYYY;
 }

@@ -13,7 +13,7 @@ public class LoginPageLocators {
     public  static   WebElement account;
     @FindBy(xpath = "//*[contains(@type,'password')]")
     public static WebElement pass;
-    @FindBy(xpath = "(//*[contains(text(),'Sign in')])[2]")
+    @FindBy(xpath = "//*[contains(@id,'nav-link-accountList-nav-line-1')]")
     public static WebElement signBtn;
 
     @FindBy(xpath = "(//*[contains(@id,'signInSubmit')])")

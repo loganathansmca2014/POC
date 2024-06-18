@@ -5,7 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="937e249d-42fc-42d9-aeeb-100cc326535e" name="Changes" comment="Merge remote-tracking branch 'origin/POC' into POC">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_11_2022_2_01_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_11_2022_2_01_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-feature_2309942542.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-feature_2309942542.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_1149411702.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_1149411702.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2123072328.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2123072328.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2149458199.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2149458199.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2209157359.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2209157359.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2209157360.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2209157360.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2209157361.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2209157361.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2209157362.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2209157362.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2226523296.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_2226523296.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_3291646935.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_3291646935.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_3420270740.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_3420270740.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_3869959439.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_3869959439.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_4059758862.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_4059758862.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_45862985.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_45862985.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_536606160.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-html-reports/report-tag_536606160.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BusinessLogic/BussinessFun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BusinessLogic/BussinessFun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageLocators/HomePageLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageLocators/HomePageLocators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageLocators/LoginPageLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageLocators/LoginPageLocators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/inputdata.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/inputdata.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failedrerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/failedrerun.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +90,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="286oyx9BWffLfSlvvlA98aMHypW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
@@ -71,14 +101,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Practice" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.TestNg.executor": "Run",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\HCL POC\AutomationFrameworkS\src\test\java\Util" />
@@ -171,6 +200,7 @@
         <option name="myRunnerSettings" />
         <option name="myRunnerParameters">
           <MavenRunnerParameters>
+            <option name="cmdOptions" />
             <option name="profiles">
               <set />
             </option>
@@ -180,9 +210,13 @@
                 <option value="install" />
               </list>
             </option>
+            <option name="multimoduleDir" />
             <option name="pomFileName" />
             <option name="profilesMap">
               <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$" />
@@ -372,7 +406,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="POC|Code|Commited by Loganathan Sengottaiyan" />
@@ -421,6 +454,16 @@
           <url>file://$PROJECT_DIR$/src/test/java/Util/ExcelReaderFillo.java</url>
           <line>55</line>
           <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Stepdef/Login/Login.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/BusinessLogic/BussinessFun.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="72" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NoSuchFieldError" package="java.lang" />
